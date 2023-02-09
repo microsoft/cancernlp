@@ -1,0 +1,10 @@
+name: onco_env
+dependencies:
+  - python=3.9
+  - pip
+  - wheel
+  - pip:
+    - allennlp==2.1.*
+    - more_itertools
+    - transformers==4.3.*
+    - entmax

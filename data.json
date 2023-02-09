@@ -1,0 +1,52 @@
+[
+    {
+        "patient_id": "1",
+        "diagnosis_date": "2020-01-01",
+        "TumorSite": "C50.1",
+        "pathologic_t": "T1",
+        "pathologic_n": "N1",
+        "pathologic_m": "M0",
+        "clinical_t": "T0",
+        "clinical_n": "N0",
+        "clinical_m": "M0",
+        "notes": [
+            {
+                "text": "note 1",
+                "id": "note id 1",
+                "date": "2020-01-02",
+                "type": "pathology"
+            },
+            {
+                "text": "note 2",
+                "id": "note id 2",
+                "date": "2020-01-03",
+                "type": "imaging"
+            }
+        ]
+    },
+    {
+        "patient_id": "2",
+        "diagnosis_date": "2020-02-01",
+        "TumorSite": "C34.1",
+        "pathologic_t": "T1",
+        "pathologic_n": "N1",
+        "pathologic_m": "M0",
+        "clinical_t": "T0",
+        "clinical_n": "N0",
+        "clinical_m": "M0",
+        "notes": [
+            {
+                "text": "note 3",
+                "id": "note id 3",
+                "date": "2020-01-04",
+                "type": "pathology"
+            },
+            {
+                "text": "note 4",
+                "id": "note id 4",
+                "date": "2020-01-05",
+                "type": "imaging"
+            }
+        ]
+    }
+]

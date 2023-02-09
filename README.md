@@ -1,14 +1,14 @@
-# Project
+# cancernlp
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This project provides a sample code for training the model described in Towards Structuring Real-World Data at Scale: Deep Learning for Extracting Key Oncology Information from Clinical Text with Patient-Level Supervision (in submission).
 
-As the maintainer of this project, please make a few updates:
+To train a model,
+1. Create conda environment: `conda env create -f conda_env.yml`
+2. Activate conda environemnt: `conda activate onco_env`
+3. Train toy model: `python train_example.py`
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+If there is an "Invalid version: '0.10.1,<0.11" error, try `pip uninstall tokenizers`.
+
 
 ## Contributing
 
